@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/nanaky92/RESTful-Node/issues"
   },
-  "homepage": "https://github.com/nanaky92/RESTful-Node#readme"
+  "homepage": "https://github.com/nanaky92/RESTful-Node#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  },
+  "start": "nodemon server.js"
 }
